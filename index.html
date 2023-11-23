@@ -18,23 +18,27 @@
 
     <div class="game-area">
         <div class="controls-area">
-            <button class="btn btn--big btn-brown">Ball sports</button>
-            <i class="fa-light fa-futbol" style="color: #51241f;"></i>
-            <button class="btn btn--big btn-violet">Racquet sports</button>
-            <i class="fa-solid fa-racquet" style="color: #511f51;"></i>
-            <button class="btn btn--big btn-green">Athletic sports</button>
-            <i class="fa-regular fa-person-running-fast" style="color: #20511f;"></i>
+            <button data-type="Ball" class="btn btn--big btn-brown">
+                <i class="fa-light fa-futbol" style="color: #51241f;"></i>
+            </button>
+        
+            <button data-type="Racquet"class="btn btn--big btn-violet">
+                <i class="fa-solid fa-racquet" style="color: #511f51;"></i>
+            </button>
+            
+            <button data-type="Atheletic" class="btn btn--big btn-green">
+                <i class="fa-regular fa-person-running-fast" style="color: #20511f;"></i>
+            </button>
+            
             
         </div>
         <div class="question-area">
          <span id="question"></span>
-         <span></span>
-         <span></span>
          <p class="answer-message">Enter Answer:</p>
          <input id="answer-box" type="text"
 
         </div>
-        <buttton class="btn btn--gray">Submit Answer</button>
+        <buttton data-type="submit"class="btn btn--gray"><br>  Answer</button>
     </div>
    
     <div class="score-area">
